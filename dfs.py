@@ -8,7 +8,7 @@ graph = {
     'F': []
 }
 
-# DFS с вычислением длины пути
+# Обход в глубину
 def dfs_with_path_length(graph, start, visited=None, path_lengths=None, depth=0):
     if start not in graph: 
         raise ValueError(f"Вершина '{start}' отсутствует в графе") 
